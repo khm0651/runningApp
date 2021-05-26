@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <item name="colorPrimary">@color/grey50Light</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/VitaBlue</item>
+        <item name="colorControlNormal">@color/grey300</item>
+        <item name="colorControlActivated">@color/VitaBlue</item>
+        <item name="android:colorControlActivated">@color/VitaBlue</item>
+        <item name="android:statusBarColor">@color/grey50Light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:background">@drawable/background_splash_screen</item>
+        <item name="android:statusBarColor">@color/grey50Light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+        <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+</resources>
